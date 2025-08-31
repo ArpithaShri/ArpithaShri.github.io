@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Railway Reservation System",
+    "description": "A personal project that simulates a railway reservation system, allowing users to book and manage train tickets.",
+    "skills": ["Python-Flask", "HTML","MySQL"],
+    "source": "https://github.com/ArpithaShri/Railway-Reservation-System"
+  },
+  {
+    "title": "AuraGlow",
+    "description": "Designed and developed a responsive skincare web platform using HTML, CSS,and JavaScript, ensuring a seamless user experience.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "source": "https://github.com/ArpithaShri/AuraGlow"
+  },
+  {
+    "title": "RabinKarp",
+    "description": "This project implements the Rabin-Karp algorithm for string matching.",
+    "skills": ["C++", "HTML","Algorithms"],
+    "source": "https://github.com/ArpithaShri/RabinKarp"
+  },
+  {
+    "title": "LearnOClock",
+    "description": "An interactive educational web application specifically designed to help autistic children develop time-telling skills using analog clocks.",
+    "skills": ["React.js","CSS","JavaScript"],
+    "source":  "https://github.com/ArpithaShri/LearnOClock"
+  }
+]

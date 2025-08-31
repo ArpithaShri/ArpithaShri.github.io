@@ -1,0 +1,143 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin: 60px 10%;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+
+.category {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.itemsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 90px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.item img {
+  background-color: var(--color-secondary);
+  width: 75px;
+  height: 75px;
+  border-radius: 16px;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.item p {
+  font-size: 15px;
+  font-family: var(--font-roboto);
+  text-align: center;
+  font-weight: 500;
+  margin: 0;
+}
+.historyItem {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: var(--color-dark);
+  padding: 18px 24px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.historyItem:hover {
+  transform: translateY(-3px);
+}
+
+.historyItem img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: var(--color-secondary);
+  padding: 12px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.historyItemDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.historyItemDetails h3 {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.historyItemDetails p {
+  font-size: 16px;
+  color: #aaa;
+  margin: 0;
+}
+
+.historyItemDetails ul {
+  padding-left: 20px;
+  margin: 6px 0 0 0;
+}
+
+.historyItemDetails li {
+  font-size: 15px;
+  color: var(--color-text);
+  list-style-type: disc;
+}
+
+
+@media screen and (max-width: 830px) {
+  .itemsRow {
+    gap: 20px;
+  }
+
+  .item {
+    width: 80px;
+  }
+
+  .item img {
+    width: 65px;
+    height: 65px;
+  }
+}

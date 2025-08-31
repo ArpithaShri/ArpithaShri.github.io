@@ -1,0 +1,50 @@
+[
+  {
+    "title": "C",
+    "imageSrc": "/assets/skills/c.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "/assets/skills/cpp.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/assets/skills/css.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "/assets/skills/html.png"
+  },
+  {
+    "title": "Haskell",
+    "imageSrc": "/assets/skills/Haskell.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "/assets/skills/java.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "/assets/skills/javascript.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "/assets/skills/mongodb.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "/assets/skills/mysql.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "/assets/skills/node.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "/assets/skills/python.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/assets/skills/react.png"
+  }
+]

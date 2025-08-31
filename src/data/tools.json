@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Anaconda",
+    "imageSrc": "/assets/tools/Anaconda.png"
+  },
+  {
+    "title": "Arduino",
+    "imageSrc": "/assets/tools/Arduino.png"
+  },
+  {
+    "title": "Canva",
+    "imageSrc": "/assets/tools/Canva.png"
+  },
+  {
+    "title": "Eclipse IDE",
+    "imageSrc": "/assets/tools/Eclipse IDE.png"
+  },
+  {
+    "title": "Github",
+    "imageSrc": "/assets/tools/GitHub.png"
+  },
+  {
+    "title": "Jupyter",
+    "imageSrc": "/assets/tools/Jupyter.png"
+  },
+  {
+    "title": "Linux",
+    "imageSrc": "/assets/tools/Linux.png"
+  },
+  {
+    "title": "MATLAB",
+    "imageSrc": "/assets/tools/MATLAB.png"
+  },
+  {
+    "title": "Visual Studio Code",
+    "imageSrc": "/assets/tools/vscode.png"
+  }
+]
